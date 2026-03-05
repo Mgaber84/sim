@@ -42,7 +42,9 @@
     "glob": "13.0.0",
     "husky": "9.1.7",
     "lint-staged": "16.0.0",
-    "turbo": "2.8.11"
+    "turbo": "2.8.11",
+    "typedoc": "0.28.17",
+    "typedoc-plugin-markdown": "4.10.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json,css,scss}": [
