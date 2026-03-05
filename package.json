@@ -23,6 +23,7 @@
     "check": "bunx biome check --files-ignore-unknown=true",
     "prepare": "bun husky",
     "type-check": "turbo run type-check",
+    "docs:generate": "bunx typedoc",
     "release": "bun run scripts/create-single-release.ts"
   },
   "overrides": {

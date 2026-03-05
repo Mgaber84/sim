@@ -1,6 +1,7 @@
 {
-  "entryPoints": ["src/index.ts"],
+  "entryPoints": ["packages/ts-sdk/src/index.ts"],
+  "tsconfig": "packages/ts-sdk/tsconfig.json",
   "out": "docs",
   "plugin": ["typedoc-plugin-markdown"],
-  "readme": "README.md"
+  "readme": "packages/ts-sdk/README.md"
 }
