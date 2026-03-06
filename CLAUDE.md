@@ -213,6 +213,16 @@ describe('my route', () => {
 
 Use `@sim/testing` mocks/factories over local test data.
 
+## TypeDoc
+
+API docs for `packages/ts-sdk` are generated with TypeDoc into `docs/`.
+
+- **Config**: `typedoc.json` at repo root (entry point: `packages/ts-sdk/src/index.ts`)
+- **Generate**: `bun run docs:generate`
+- **Output**: `docs/` (classes + interfaces as markdown via `typedoc-plugin-markdown`)
+
+Regenerate and commit `docs/` whenever the public API of `packages/ts-sdk` changes.
+
 ## Utils Rules
 
 - Never create `utils.ts` for single consumer - inline it
